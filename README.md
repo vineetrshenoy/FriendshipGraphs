@@ -9,14 +9,14 @@ Graphs are used for a variety of applications, including social networking. In t
 The API is as follow:
 
       public class Friends{
-      public Friends()           // creates new blank graph and Scanner
-      public void buildGraph(String inputFile)    //Builds graph using input file and scanner
-      public String shortestPath(String personA, String personB)  //Finds the shortest path between two people in a graph
+      public Friends()                                                                              //Creates new blank graph and Scanner
+      public void buildGraph(String inputFile)                                                      //Builds graph using input file and scanner
+      public String shortestPath(String personA, String personB)                                    //Finds the shortest path between two people in a graph
       public String getClique(String connection, String school, Person student, ArrayList visited)  //Finds people from same school
-      public String connectors()  //Finds the people who share common links between schools
-      public void printData()     //Prints the data of all the nodes
-      public char getOption()     //Allows user to choose option
-      public void runProgram      // Driver to run class
+      public String connectors()                                                                    //Finds the people who share common links between schools
+      public void printData()                                                                       //Prints the data of all the nodes
+      public char getOption()                                                                       //Allows user to choose option
+      public void runProgram                                                                        //Driver to run class
       }
 
 
